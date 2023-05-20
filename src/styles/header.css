@@ -20,6 +20,7 @@
   text-decoration: none;
   color: #d3d3d3;
   font-size: 20px;
+
 }
 
 .nav-select {
@@ -44,13 +45,43 @@
   color: #ffff;
 }
 
+.logo-menu {
+  color: #ffff;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+
+
 @media(max-width: 768px) {
   .header {
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     height: 100%;
+  }
+
+  .logo {
+    align-self: start;
   }
 
   .nav-select {
     flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .logo-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .logo-menu ion-icon:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 10px white);
   }
 }
