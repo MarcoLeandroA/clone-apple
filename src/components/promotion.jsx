@@ -4,7 +4,7 @@ export function Promotion(props) {
       <h2>{props.title}</h2>
       <p>{props.expression}</p>
       <a href="#">Más información <ion-icon name="chevron-forward-outline"></ion-icon></a>
-      <img src={`public/images/iphone-${props.image}.png`} alt={props.descripttion} />
+      <img src={`./images/iphone-${props.image}.png`} alt={props.descripttion} />
     </div>
   );
 }
