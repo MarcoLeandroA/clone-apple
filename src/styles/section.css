@@ -1,0 +1,31 @@
+.present-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  gap: 15px;
+}
+
+.present-content h2 {
+  font-size: 40px;
+}
+
+.present-content p {
+  font-size: 25px;
+}
+
+.present-content a {
+  text-decoration: none;
+  font-size: 19px;
+  color: #268beb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.present-content img {
+  max-width: 100%;
+}

@@ -1,0 +1,60 @@
+.slider {
+  background: #000000;
+  height: 650px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+  gap: 30px;
+  text-align: center;
+}
+
+.slider span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 60px;
+  font-weight: 700;
+  color: transparent;
+  background: linear-gradient(90deg, #0084ff, #de00de);
+  -webkit-background-clip: text;
+  padding: 0 10px;
+  max-width: 700px;
+}
+
+.slider h2 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.slider h3 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.slider a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #0084ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .slider span {
+    flex-direction: column;
+    font-size: 35px;
+  }
+
+  .slider h2 {
+    font-size: 25px;
+  }
+}
