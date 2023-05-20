@@ -27,14 +27,23 @@
   color: #424245;
 }
 
-.sections-links {
+/* .sections-links {
   display: flex;
-  gap: 50px;
+  gap: 30px;
 }
 
 .sections-links details summary {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   cursor: pointer;
+}
+
+.sections-links details ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .sections-links details ion-icon {
@@ -44,7 +53,7 @@
 .sections-links li:hover {
   text-decoration: underline;
   cursor: pointer;
-}
+} */
 
 .aviso {
   display: flex;
@@ -69,35 +78,37 @@
   padding-top: 15px;
 }
 
-@media (max-width: 768px) {
+
+.sections-links {
+  flex-direction: column;
+  gap: 1px;
+  width: 900px;
+}
+
+.sections-links details {
+  display: block;
+  width: 100%;
+}
+
+.sections-links details summary {
+  padding: 10px;
+  background: #c4c4c44b;
+}
+
+.sections-links details ul {
+  background: #c4c4c44b;
+  padding: 10px;
+}
+
+.sections-links details summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 790px) {
   .sections-links {
-    flex-direction: column;
-    gap: 1px;
-  }
-
-  .sections-links details {
-    display: block;
     width: 100%;
-  }
-
-  .sections-links details summary {
-    padding: 10px;
-    background: #c4c4c44b;
-  }
-
-  .sections-links details ul {
-    background: #c4c4c44b;
-    padding: 10px;
-  }
-
-  .sections-links details summary {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 10px;
-  }
-
-  .sections-links details ion-icon {
-    visibility: visible;
   }
 }
