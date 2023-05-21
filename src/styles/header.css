@@ -1,87 +1,23 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  background: #121212;
-  height: 50px;
-  padding: 20px;
-  width: 100%;
-  overflow: hidden;
-  backdrop-filter: blur(20px);
-}
-
-.logo a {
-  text-decoration: none;
-  color: #d3d3d3;
-  font-size: 20px;
-
-}
-
-.nav-select {
-  list-style: none;
-  display: flex;
-  place-items: center;
-  gap: 20px;
-}
-
-.nav-select a {
-  text-decoration: none;
-  color: #d3d3d3;
-  padding: 5px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 14px;
-}
-
-.header a:hover {
-  color: #ffff;
-}
-
-.logo-menu {
-  color: #ffff;
-  font-size: 25px;
-  cursor: pointer;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
-}
+ header {
+   background: #141414;
+   backdrop-filter: blur(40px);
+   color: aliceblue;
+ }
 
 
+ .logo {
+   font-size: 30px;
+   color: #d4d4d4;
+ }
 
-@media(max-width: 768px) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-  }
+ .logo:hover {
+   color: #ffff;
+ }
 
-  .logo {
-    align-self: start;
-  }
+ .list-header a {
+   color: #d4d4d4;
+ }
 
-  .nav-select {
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-
-  .logo-menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-
-  .logo-menu ion-icon:hover {
-    transform: scale(1.1);
-    filter: drop-shadow(1px 1px 10px white);
-  }
-}
+ .list-header a:hover {
+   color: #ffff;
+ }
