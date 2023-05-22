@@ -11,7 +11,7 @@ export function Product(props) {
           <path d="M13 6l6 6"></path>
         </svg></a>
       </span>
-      <img src={`/public/images/prod-${props.image}.png`} alt={props.alt} />
+      <img src={`./images/prod-${props.image}.png`} alt={props.alt} />
     </div>
   );
 }
