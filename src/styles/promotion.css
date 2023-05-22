@@ -9,6 +9,7 @@
   color: #ffffffff;
   padding: 30px 0 0 0;
   gap: 15px;
+  cursor: pointer;
 }
 
 .promotion-content h2 {

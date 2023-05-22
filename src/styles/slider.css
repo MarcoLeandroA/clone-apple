@@ -6,6 +6,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  cursor: pointer;
   color: #ffffff;
   gap: 30px;
   text-align: center;
@@ -35,13 +36,17 @@
   font-size: 20px;
 }
 
-.slider a {
-  text-decoration: none;
-  font-size: 18px;
-  color: #0084ff;
+.more-info {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.more-info a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #0084ff;
 }
 
 .slider a:hover {
